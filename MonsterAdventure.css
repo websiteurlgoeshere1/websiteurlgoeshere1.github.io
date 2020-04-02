@@ -1,0 +1,34 @@
+body {
+    background-color: #fff4e0;
+    color: #211601;
+}
+
+#main {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#inner {
+    display: none;
+}
+
+#death {
+    display: none;
+}
+
+#win {
+    display: none;
+}
+
+button {
+    background: #211601;
+    color: #fff4e0;
+    border: none;
+    height: 30px;
+    font: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

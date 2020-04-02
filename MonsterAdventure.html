@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link href="MonsterAdventure.css" type="text/css" rel="stylesheet" />
+        <script src="MonsterAdventure.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <button id="begin" onclick="begin()">Begin</button>
+            <div id="inner">
+                HP: <input type="text" value="50" id="hp" disabled></input>
+                <h3 id="head"></h3>
+                <p>What do you want to do?</p>
+                <button onclick="goNorth();">Go North</button>
+                <br />
+                <button onclick="goWest();">Go West</button>
+                <button onclick="goEast();">Go East</button>
+                <br />
+                <button onclick="goSouth();">Go South</button>
+                <br />
+                <br />
+                <button onclick="callMom();">Call your Mom</button>
+            </div>
+            <div id="death">
+                <h2>You are dead</h2>
+                <p>Refresh the page to try again</p>
+            </div>
+            <div id="win">
+                <h2>Congratulations, you defeated the monster!</h2>
+                <p>Refresh the page to play again</p>
+            </div>
+        </div>
+    </body>
+</html>
